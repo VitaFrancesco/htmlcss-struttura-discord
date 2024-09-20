@@ -21,7 +21,7 @@ img{
 /* layout */
 
 .container{
-    max-width: 700px;
+    max-width: 750px;
     margin: 0 auto;
 }
 
@@ -40,6 +40,15 @@ header{
     gap: 10px;
 }
 
+section{
+    padding: 20px;
+}
+
+.container.small{
+    max-width: 570px;
+    min-height: 500px;
+}
+
 /* utilities */
 
 .bg-light-blue{
@@ -47,6 +56,14 @@ header{
 }
 .bg-orange{
     background-color: rgb(218, 165, 32);
+}
+
+.bg-mamie-pink{
+    background-color: rgb(238, 130, 238);
+}
+
+.bg-blue{
+    background-color: rgb(0, 0, 139);
 }
 
 /* debug rules */
