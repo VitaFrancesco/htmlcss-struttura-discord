@@ -25,9 +25,14 @@ img{
     margin: 0 auto;
 }
 
+header{
+    padding: 10px;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
+    padding: 5px;
 }
 
 .main-menu{
