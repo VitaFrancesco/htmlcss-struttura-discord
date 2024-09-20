@@ -18,3 +18,22 @@ img{
     max-width: 100%;
 }
 
+/* layout */
+
+
+/* utilities */
+
+
+/* debug rules */
+
+.debug{
+    border: solid 2px black;
+}
+
+.row .debug{
+    border: solid 2px red;
+}
+
+.col .debug{
+    border: solid 2px blue;
+}
