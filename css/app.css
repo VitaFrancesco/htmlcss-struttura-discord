@@ -49,6 +49,10 @@ section{
     min-height: 400px;
 }
 
+.container.big{
+    min-height: 900px;
+}
+
 .row{
     display: flex;
 }
@@ -100,6 +104,10 @@ section{
 
 .bg-gray{
     background-color: rgb(211, 211, 211);
+}
+
+.bg-dark-green{
+    background-color: rgb(34, 139, 34);
 }
 
 /* debug rules */
