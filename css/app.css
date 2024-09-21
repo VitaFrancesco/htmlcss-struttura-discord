@@ -46,19 +46,10 @@ header{
 
 .container.small{
     max-width: 570px;
-    min-height: 400px;
-}
-
-.container.big{
-    min-height: 900px;
 }
 
 .row{
     display: flex;
-}
-
-.row > *{
-    min-height: 500px;
 }
 
 .col-66{
@@ -79,10 +70,6 @@ header{
 
 footer > :first-child{
     padding: 3px 20px 20px;
-}
-
-.row > *{
-    border: dashed 1px black;
 }
 
 .footer-menu{
@@ -154,14 +141,19 @@ footer > :first-child{
 
 /* debug rules */
 
-.debug{
-    border: solid 2px black;
+.debug .row > *{
+    border: dashed 1px black;
 }
 
-.row .debug{
-    border: solid 2px red;
+.debug .row > *{
+    min-height: 500px;
 }
 
-.col .debug{
-    border: solid 2px blue;
+/* .big potrebbe non servire più una volta aggiunto il contenuto */
+.debug .container.big{
+    min-height: 900px;
+}
+
+.debug .container.small{
+    min-height: 400px;
 }
