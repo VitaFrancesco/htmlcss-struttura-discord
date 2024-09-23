@@ -26,13 +26,14 @@ img{
 }
 
 header{
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .navbar{
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    align-items: center;
 }
 
 .main-menu{
@@ -41,7 +42,7 @@ header{
 }
 
 .section{
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .container.small{
@@ -74,11 +75,11 @@ header{
 }
 
 footer > :first-child{
-    padding: 3px 20px 20px;
+    padding: 3px 0 20px;
 }
 
 .footer-menu{
-    padding: 15px 20px 0;
+    padding: 15px 0 0;
     border-top: white solid 1px;
 }
 
