@@ -21,7 +21,7 @@ img{
 /* layout */
 
 .container{
-    max-width: 750px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -50,6 +50,7 @@ header{
 
 .row{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .col-60{
